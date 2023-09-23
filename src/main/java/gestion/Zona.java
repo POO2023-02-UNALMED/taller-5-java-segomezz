@@ -1,5 +1,5 @@
-import java.util.ArrayList
-import zooAnimales.Animal
+import java.util.ArrayList;
+import zooAnimales.Animal;
 package gestion;
 
 public class Zona {
@@ -9,7 +9,7 @@ public class Zona {
 	
 public Zona(){
 		this.nombre=null;
-		this.Zoologico=null
+		this.Zoologico=null;
 	
 }
 public Zona(String nombre,Zoologico zoo) {
@@ -18,16 +18,16 @@ public Zona(String nombre,Zoologico zoo) {
 	
 }
 public void agregarAnimales(Animal animal) {
-	this.animales.add(animal)
+	this.animales.add(animal);
 }
 public int cantidadAnimales() {
     return animales.size();
 }
 public String getNombre() {
-	return nombre
+	return nombre;
 }
-public void String setNombre(nombre) {
-	this.nombre=nombre
+public void String setNombre(String nombre) {
+	this.nombre=nombre;
 }
 public Zoologico getZoo() {
 	return zoo;
@@ -36,5 +36,47 @@ public Zoologico getZoo() {
 public void setZoo(Zoologico zoo) {
 	this.zoo = zoo;
 	}
+
+public static int getTotalAnimales() {
+	return totalAnimales;
+}
+public static void setTotalAnimales(int totalAnimales) {
+	Animal.totalAnimales = totalAnimales;
+}
+public String getNombre() {
+	return nombre;
+}
+public void setNombre(String nombre) {
+	this.nombre = nombre;
+}
+public int getEdad() {
+	return edad;
+}
+public void setEdad(int edad) {
+	this.edad = edad;
+}
+public String getHabitat() {
+	return habitat;
+}
+public void setHabitat(String habitat) {
+	this.habitat = habitat;
+}
+public String getGenero() {
+	return genero;
+}
+public void setGenero(String genero) {
+	this.genero = genero;
+}
+public Zona getZona() {
+	return zona;
+}
+public void setZona(Zona zona) {
+	this.zona = zona;
+}
+public static getAnimales() {
+	return animales;
+}
+public static void setListado(ArrayList<Animal> animales) {
+	Zona.animales=animales;
 }
 }
