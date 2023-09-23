@@ -1,5 +1,5 @@
-import gestion.Zona;
 package zooAnimales;
+import gestion.Zona;
 
 public class Animal {
 	private static int totalAnimales=0;
@@ -19,14 +19,14 @@ public Animal(String nombre,int edad,String habitat,String genero,Zona zona){
 	this.zona=null;
 	totalAnimales+=1;
 }
-public movimiento() {
+public static movimiento() {
 	return "desplazarse";
 }
 public totalAnimales () {
 	return totalAnimales;
 }
-public totalPorTipo() {
-	String resultado = String.format("Mamífero: %d%nAve: %d%nReptil: %d%nPez: %d%nAnfibio; %d%n", Mamifero.cantidadMamiferos(), Ave.cantidadAve(),Reptil.cantidadReptiles(),Pez.cantidadPeces(),Anfibio.cantidadAnfibios());
+public static totalPorTipo() {
+	String resultado = String.format("Mamífero: %d%nAve: %d%nReptil: %d%nPez: %d%nAnfibio: %d%n", Mamifero.cantidadMamiferos(), Ave.cantidadAves(),Reptil.cantidadReptiles(),Pez.cantidadPeces(),Anfibio.cantidadAnfibios());
 return resultado;
 }
 public String toString() {
@@ -37,9 +37,7 @@ public String toString() {
 	}
 	
 	return message;
-
-
-	
+}
 	public static int getTotalAnimales() {
 		return totalAnimales;
 	}
