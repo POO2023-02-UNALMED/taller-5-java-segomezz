@@ -43,7 +43,7 @@ public int getLargoCola() {
 public String movimiento() {
 	return "reptar";
 }
-public int static cantidadReptiles() {
+public static int cantidadReptiles() {
 	return listado.size();
 	}
 
