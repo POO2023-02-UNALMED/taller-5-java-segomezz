@@ -27,23 +27,23 @@ public class Anfibio extends Animal {
 		Anfibio.salamandras++;
 		return salamandra;
 	}
-public static void setColorEscamas(String colorEscamas) {
-	this.colorEscamas=colorEscamas;
+public static void setColorPiel(String colorPiel) {
+	this.colorPiel=colorPiel;
 }
 public String getColorEscamas() {
-	return colorEscamas;
+	return colorPiel;
 }
-public static void setVenenoso(boolean venenoso) {
+public void setVenenoso(boolean venenoso) {
 	this.venenoso=venenoso;
 }
-public static boolean getVenenoso() {
+public boolean getVenenoso() {
 	return venenoso;
 }
 @Override
 public String movimiento() {
 	return "saltar";
 }
-public static int cantidadAnfibios() {
+public int cantidadAnfibios() {
 	return listado.size();
 	}
 
@@ -51,7 +51,7 @@ public static ArrayList<Anfibio> getListado() {
 	return listado;
 }
 public static void setListado(ArrayList<Anfibio> listado) {
-	anfibio.listado=listado;
+	Anfibio.listado=listado;
 
 }
 }

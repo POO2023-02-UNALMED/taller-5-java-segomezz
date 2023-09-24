@@ -37,37 +37,7 @@ public void setZoo(Zoologico zoo) {
 	this.zoo = zoo;
 	}
 
-public static int getTotalAnimales() {
-	return totalAnimales;
-}
-public static void setTotalAnimales(int totalAnimales) {
-	Animal.totalAnimales = totalAnimales;
-}
 
-public int getEdad() {
-	return edad;
-}
-public void setEdad(int edad) {
-	this.edad = edad;
-}
-public String getHabitat() {
-	return habitat;
-}
-public void setHabitat(String habitat) {
-	this.habitat = habitat;
-}
-public String getGenero() {
-	return genero;
-}
-public void setGenero(String genero) {
-	this.genero = genero;
-}
-public Zona getZona() {
-	return zona;
-}
-public void setZona(Zona zona) {
-	this.zona = zona;
-}
 public static ArrayList<Animal> getAnimales() {
 	return animales;
 }

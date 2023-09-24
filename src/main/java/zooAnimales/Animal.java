@@ -19,7 +19,7 @@ public Animal(String nombre,int edad,String habitat,String genero,Zona zona){
 	this.zona=null;
 	totalAnimales+=1;
 }
-public static String movimiento() {
+public String movimiento() {
 	return "desplazarse";
 }
 public int totalAnimales () {
