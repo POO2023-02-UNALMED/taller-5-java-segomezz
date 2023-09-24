@@ -36,7 +36,7 @@ public String getColorEscamas() {
 public void setVenenoso(boolean venenoso) {
 	this.venenoso=venenoso;
 }
-public boolean getVenenoso() {
+public boolean isVenenoso() {
 	return venenoso;
 }
 @Override
