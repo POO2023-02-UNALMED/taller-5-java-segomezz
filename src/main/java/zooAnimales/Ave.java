@@ -22,7 +22,7 @@ public class Ave extends Animal {
 	}
 	public static Ave crearAguila(String nombre,int edad,String genero) {
 		Ave aguila=new Ave(nombre,edad,"montanas",genero,"blanco amarillo");
-		Ave.aguilas++;
+		Ave.aguilas+;
 		return aguila;
 	}
 public void setColorPlumas(String colorPlumas) {
