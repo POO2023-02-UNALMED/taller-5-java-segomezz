@@ -43,12 +43,7 @@ public static int getTotalAnimales() {
 public static void setTotalAnimales(int totalAnimales) {
 	Animal.totalAnimales = totalAnimales;
 }
-public String getNombre() {
-	return nombre;
-}
-public void setNombre(String nombre) {
-	this.nombre = nombre;
-}
+
 public int getEdad() {
 	return edad;
 }

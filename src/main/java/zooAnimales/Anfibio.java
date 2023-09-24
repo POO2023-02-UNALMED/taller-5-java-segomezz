@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class Anfibio extends Animal {
 	private ArrayList<Anfibio> listado=new ArrayList<Anfibio>();
-	public int ranas;
-	public int salamandras;
+	public static int ranas;
+	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
 	public Anfibio(){
@@ -39,7 +39,7 @@ public static void setVenenoso(boolean venenoso) {
 public static boolean getVenenoso() {
 	return venenoso;
 }
-@override
+@Override
 public String movimiento() {
 	return "saltar";
 }

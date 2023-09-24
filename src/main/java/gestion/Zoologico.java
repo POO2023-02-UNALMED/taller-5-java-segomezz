@@ -44,7 +44,4 @@ public static int cantidadTotalAnimales() {
 public static void setListado(ArrayList<Zona> zonas) {
 	Zoologico.zonas=zonas;
 }
-public static ArrayList<Zona> getZonas() {
-	return zonas;
-}
 }
