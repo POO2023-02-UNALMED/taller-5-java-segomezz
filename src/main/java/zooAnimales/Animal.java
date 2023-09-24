@@ -25,10 +25,9 @@ public String movimiento() {
 public int totalAnimales () {
 	return totalAnimales;
 }
-public static String totalPorTipo() {
-	String resultado = String.format("Mamifero: %d\nAve: %d\nReptil: %d\nPez: %d\nAnfibio: %d\n", Mamifero.cantidadMamiferos(), Ave.cantidadAves(),Reptil.cantidadReptiles(),Pez.cantidadPeces(),Anfibio.cantidadAnfibios());
-return resultado;
-}
+public static String totalPorTipo () {
+        return "Mamiferos: " + Mamifero.cantidadMamiferos() + "\nAves: " + Ave.cantidadAves() + "\nReptiles: " + Reptil.cantidadReptiles() + "\nPeces: " + Pez.cantidadPeces() + "\nAnfibios: " + Anfibio.cantidadAnfibios();
+    }
 public String toString() {
 	String message = String.format("Mi nombre es %s, tengo una edad de %s, habito en %s y mi genero es %s", nombre, edad, habitat, genero);
 	
