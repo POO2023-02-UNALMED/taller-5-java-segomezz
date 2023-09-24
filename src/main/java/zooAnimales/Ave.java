@@ -39,7 +39,7 @@ public static int cantidadAves() {
 	return listado.size();
 	}
 
-public ArrayList<Ave> getListado() {
+public static ArrayList<Ave> getListado() {
 	return listado;
 }
 public void setListado(ArrayList<Ave> listado) {
