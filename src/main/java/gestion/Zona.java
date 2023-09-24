@@ -41,7 +41,5 @@ public void setZoo(Zoologico zoo) {
 public ArrayList<Animal> getAnimales() {
 	return animales;
 }
-public static void setListado(ArrayList<Animal> animales) {
-	Zona.animales=animales;
-}
+
 }
