@@ -25,7 +25,7 @@ public String movimiento() {
 public int totalAnimales () {
 	return totalAnimales;
 }
-public String totalPorTipo() {
+public static String totalPorTipo() {
 	String resultado = String.format("Mamifero: %d%nAve: %d%nReptil: %d%nPez: %d%nAnfibio: %d%n", Mamifero.cantidadMamiferos(), Ave.cantidadAves(),Reptil.cantidadReptiles(),Pez.cantidadPeces(),Anfibio.cantidadAnfibios());
 return resultado;
 }

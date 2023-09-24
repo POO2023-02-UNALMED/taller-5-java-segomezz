@@ -43,7 +43,7 @@ public boolean getVenenoso() {
 public String movimiento() {
 	return "saltar";
 }
-public int cantidadAnfibios() {
+public static int cantidadAnfibios() {
 	return listado.size();
 	}
 

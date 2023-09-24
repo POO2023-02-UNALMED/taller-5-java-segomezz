@@ -35,7 +35,7 @@ public String getColorPlumas() {
 public String movimiento() {
 	return "volar";
 }
-public int cantidadAves() {
+public static int cantidadAves() {
 	return listado.size();
 	}
 
