@@ -47,7 +47,7 @@ public static int cantidadPeces() {
 	return listado.size();
 	}
 
-public ArrayList<Pez> getListado() {
+public static ArrayList<Pez> getListado() {
 	return listado;
 }
 public void setListado(ArrayList<Pez> listado) {
