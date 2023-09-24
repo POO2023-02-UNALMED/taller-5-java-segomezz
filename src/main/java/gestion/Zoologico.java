@@ -20,7 +20,7 @@ public String getNombre() {
 public String getUbicacion() {
 	return ubicacion;
 }
-public String setNombre(String nombre) {
+public void setNombre(String nombre) {
 	this.nombre=nombre;
 }
 public void setUbicacion(String ubicacion) {
