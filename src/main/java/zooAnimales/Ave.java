@@ -32,7 +32,7 @@ public String getColorPlumas() {
 	return colorPlumas;
 }
 @Override
-public movimiento() {
+public String movimiento() {
 	return "volar";
 }
 public int cantidadAves() {

@@ -40,7 +40,7 @@ public static int getLargoCola() {
 	return largoCola;
 }
 @Override
-public movimiento() {
+public String movimiento() {
 	return "reptar";
 }
 public static int cantidadReptiles() {

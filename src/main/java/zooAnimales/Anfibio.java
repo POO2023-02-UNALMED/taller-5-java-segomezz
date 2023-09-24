@@ -40,7 +40,7 @@ public static boolean getVenenoso() {
 	return venenoso;
 }
 @override
-public movimiento() {
+public String movimiento() {
 	return "saltar";
 }
 public static int cantidadAnfibios() {

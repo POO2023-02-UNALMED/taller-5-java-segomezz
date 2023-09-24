@@ -36,11 +36,11 @@ public static String getColorEscamas() {
 public static void setCantidadAletas(int cantidadAletas) {
 	this.cantidadAletas=cantidadAletas;
 }
-public static getCantidadAletas() {
+public static String getCantidadAletas() {
 	return cantidadAletas;
 }
 @override
-public movimiento() {
+public String movimiento() {
 	return "nadar";
 }
 public static int cantidadPeces() {
