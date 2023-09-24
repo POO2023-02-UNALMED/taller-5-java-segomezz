@@ -23,11 +23,11 @@ public String getUbicacion() {
 public String setNombre(String nombre) {
 	this.nombre=nombre;
 }
-public String setUbicacion(String ubicacion) {
+public void setUbicacion(String ubicacion) {
 	this.ubicacion=ubicacion;
 }
 public void agregarZonas(Zona zona) {
-	zonas.add(zona);
+	this.zonas.add(zona);
 }
 public ArrayList<Zona> getZonas(){
 return zonas;
