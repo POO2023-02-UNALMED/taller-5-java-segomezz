@@ -32,7 +32,7 @@ public static Mamifero crearLeon(String nombre,int edad,String genero) {
 public static int cantidadMamiferos() {
 	return listado.size();
 }
-public ArrayList<Mamifero>getListado() {
+public static ArrayList<Mamifero>getListado() {
 	return listado;
 }
 public void setListado(ArrayList<Mamifero> listado) {
