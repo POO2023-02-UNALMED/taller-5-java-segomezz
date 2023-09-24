@@ -46,7 +46,7 @@ public boolean getPelaje() {
 public void setPatas(int patas) {
 	this.patas=patas;
 }
-public int getPatas()) {
+public int getPatas() {
 	return patas;
 }
 }

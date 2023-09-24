@@ -34,16 +34,16 @@ return zonas;
 
 public static int cantidadTotalAnimales() {
 	int cantidadAnimales= 0;
-	for i (int i=0;i<zonas.size();i++) {
+	for  (int i=0;i<zonas.size();i++) {
 	cantidadAnimales+=zonas.get(i).cantidadAnimales();
 	}
-	return cantidadAnimales
+	return cantidadAnimales;
 	
 }
 public static void setListado(ArrayList<Zona> zonas) {
 	Zoologico.zonas=zonas;
 }
-public static getZonas() {
+public static ArrayList<Zona> getZonas() {
 	return zonas;
 }
 }

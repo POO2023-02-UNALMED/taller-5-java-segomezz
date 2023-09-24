@@ -26,7 +26,7 @@ public int cantidadAnimales() {
 public String getNombre() {
 	return nombre;
 }
-public void String setNombre(String nombre) {
+public void setNombre(String nombre) {
 	this.nombre=nombre;
 }
 public Zoologico getZoo() {
@@ -73,7 +73,7 @@ public Zona getZona() {
 public void setZona(Zona zona) {
 	this.zona = zona;
 }
-public static getAnimales() {
+public static ArrayList<Animal> getAnimales() {
 	return animales;
 }
 public static void setListado(ArrayList<Animal> animales) {
