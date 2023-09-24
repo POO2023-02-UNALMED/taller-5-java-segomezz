@@ -27,7 +27,7 @@ public void setUbicacion(String ubicacion) {
 	this.ubicacion=ubicacion;
 }
 public void agregarZonas(Zona zona) {
-	this.zonas.add(zona);
+	zonas.add(zona);
 }
 public ArrayList<Zona> getZona(){
 return zonas;
