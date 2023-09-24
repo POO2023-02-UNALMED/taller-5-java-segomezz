@@ -9,7 +9,7 @@ public class Zona {
 	
 public Zona(){
 		this.nombre=null;
-		this.Zoologico=null;
+		this.zoo=null;
 	
 }
 public Zona(String nombre,Zoologico zoo) {
@@ -38,7 +38,7 @@ public void setZoo(Zoologico zoo) {
 	}
 
 
-public static ArrayList<Animal> getAnimales() {
+public ArrayList<Animal> getAnimales() {
 	return animales;
 }
 public static void setListado(ArrayList<Animal> animales) {

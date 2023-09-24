@@ -12,7 +12,7 @@ public Zoologico() {
 	}
 public Zoologico(String nombre,String ubicacion) {
 	this.nombre=nombre;
-	this.ubicaion=ubicacion;
+	this.ubicacion=ubicacion;
 }
 public String getNombre() {
 	return nombre;
@@ -33,7 +33,7 @@ public ArrayList<Zona> getZonas(){
 return zonas;
 }
 
-public static int cantidadTotalAnimales() {
+public int cantidadTotalAnimales() {
 	int cantidadAnimales= 0;
 	for  (int i=0;i<zonas.size();i++) {
 	cantidadAnimales+=zonas.get(i).cantidadAnimales();
@@ -41,7 +41,7 @@ public static int cantidadTotalAnimales() {
 	return cantidadAnimales;
 	
 }
-public static void setListado(ArrayList<Zona> zonas) {
+public void setListado(ArrayList<Zona> zonas) {
 	Zoologico.zonas=zonas;
 }
 }

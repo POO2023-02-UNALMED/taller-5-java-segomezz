@@ -30,27 +30,27 @@ public class Reptil extends Animal {
 public void setColorEscamas(String colorEscamas) {
 	this.colorEscamas=colorEscamas;
 }
-public static String getColorEscamas() {
+public String getColorEscamas() {
 	return colorEscamas;
 }
 public void setLargoCola(int largoCola) {
 	this.largoCola=largoCola;
 }
-public static int getLargoCola() {
+public int getLargoCola() {
 	return largoCola;
 }
 @Override
 public String movimiento() {
 	return "reptar";
 }
-public static int cantidadReptiles() {
+public int cantidadReptiles() {
 	return listado.size();
 	}
 
-public static ArrayList<Reptil> getListado() {
+public ArrayList<Reptil> getListado() {
 	return listado;
 }
-public static void setListado(ArrayList<Reptil> listado) {
+public void setListado(ArrayList<Reptil> listado) {
 	Reptil.listado=listado;
 
 }

@@ -27,7 +27,7 @@ public class Anfibio extends Animal {
 		Anfibio.salamandras++;
 		return salamandra;
 	}
-public static void setColorPiel(String colorPiel) {
+public void setColorPiel(String colorPiel) {
 	this.colorPiel=colorPiel;
 }
 public String getColorEscamas() {
@@ -47,10 +47,10 @@ public int cantidadAnfibios() {
 	return listado.size();
 	}
 
-public static ArrayList<Anfibio> getListado() {
+public ArrayList<Anfibio> getListado() {
 	return listado;
 }
-public static void setListado(ArrayList<Anfibio> listado) {
+public void setListado(ArrayList<Anfibio> listado) {
 	Anfibio.listado=listado;
 
 }

@@ -27,30 +27,30 @@ public class Pez extends Animal {
 		Pez.bacalaos++;
 		return bacalao;
 	}
-public static void setColorEscamas(String colorEscamas) {
+public void setColorEscamas(String colorEscamas) {
 	this.colorEscamas=colorEscamas;
 }
-public static String getColorEscamas() {
+public  String getColorEscamas() {
 	return colorEscamas;
 }
-public static void setCantidadAletas(int cantidadAletas) {
+public  void setCantidadAletas(int cantidadAletas) {
 	this.cantidadAletas=cantidadAletas;
 }
-public static String getCantidadAletas() {
+public String getCantidadAletas() {
 	return cantidadAletas;
 }
 @Override
 public String movimiento() {
 	return "nadar";
 }
-public static int cantidadPeces() {
+public int cantidadPeces() {
 	return listado.size();
 	}
 
-public static ArrayList<Pez> getListado() {
+public ArrayList<Pez> getListado() {
 	return listado;
 }
-public static void setListado(ArrayList<Pez> listado) {
+public void setListado(ArrayList<Pez> listado) {
 	Pez.listado=listado;
 
 }

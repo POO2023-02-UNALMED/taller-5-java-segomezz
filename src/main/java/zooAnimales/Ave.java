@@ -25,7 +25,7 @@ public class Ave extends Animal {
 		Ave.aguilas++;
 		return aguila;
 	}
-public static void setColorPlumas(String colorPlumas) {
+public void setColorPlumas(String colorPlumas) {
 	this.colorPlumas=colorPlumas;
 }
 public String getColorPlumas() {
@@ -42,7 +42,7 @@ public int cantidadAves() {
 public ArrayList<Ave> getListado() {
 	return listado;
 }
-public static void setListado(ArrayList<Ave> listado) {
+public void setListado(ArrayList<Ave> listado) {
 	Ave.listado=listado;
 
 }
