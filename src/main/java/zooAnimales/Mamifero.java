@@ -18,35 +18,35 @@ public Mamifero(String nombre,int edad,String habitat,String genero,boolean pela
 	listado.add(this);
 	
 }
-public  static crearCaballo(String nombre,int edad,String genero) {
+public  static Mamifero crearCaballo(String nombre,int edad,String genero) {
 	Mamifero caballo=new Mamifero(nombre,edad,"pradera",genero,true,4);
 	Mamifero.caballos++;
 	return caballo;
 }
-public static crearLeon(String nombre,int edad,String genero) {
+public static Mamifero crearLeon(String nombre,int edad,String genero) {
 	Mamifero caballo=new Mamifero(nombre,edad,"selva",genero,true,4);
 	Mamifero.leones++;
-	return leon;
+	return caballo;
 }
-public static cantidadMamiferos() {
+public static int cantidadMamiferos() {
 	return listado.size();
 }
-public static getListado() {
+public static ArrayList<Mamifero>getListado() {
 	return listado;
 }
 public static void setListado(ArrayList<Mamiferos> listado) {
-	mamifero.listado=listado;
+	Mamifero.listado=listado;
 }
-public static setPelaje(boolean pelaje) {
+public void setPelaje(boolean pelaje) {
 	this.pelaje=pelaje;
 }
-public static getPelaje(boolean pelaje) {
+public boolean getPelaje() {
 	return pelaje;
 }
-public static setPatas(int patas) {
+public void setPatas(int patas) {
 	this.patas=patas;
 }
-public static getPatas(int patas) {
+public int getPatas()) {
 	return patas;
 }
 }

@@ -17,37 +17,37 @@ public class Anfibio extends Animal {
 		this.venenoso=venenoso;
 		listado.add(this);
 	}
-	public  static crearRana(String nombre,int edad,String genero) {
+	public  static Anfibio crearRana(String nombre,int edad,String genero) {
 		Anfibio rana=new Anfibio(nombre,edad,"selva",genero,"rojo",true);
 		Anfibio.ranas++;
 		return rana;
 	}
-	public  static crearSalamandra(String nombre,int edad,String genero) {
-		Anfibio rana=new Anfibio(nombre,edad,"selva",genero,"negro y amarillo",false);
+	public  static Anfibio crearSalamandra(String nombre,int edad,String genero) {
+		Anfibio salamandra=new Anfibio(nombre,edad,"selva",genero,"negro y amarillo",false);
 		Anfibio.salamandras++;
-		return salamandras;
+		return salamandra;
 	}
 public static void setColorEscamas(String colorEscamas) {
 	this.colorEscamas=colorEscamas;
 }
-public static getColorEscamas() {
+public String getColorEscamas() {
 	return colorEscamas;
 }
 public static void setVenenoso(boolean venenoso) {
 	this.venenoso=venenoso;
 }
-public static getVenenoso() {
+public static boolean getVenenoso() {
 	return venenoso;
 }
 @override
 public movimiento() {
 	return "saltar";
 }
-public static cantidadAnfibios() {
+public static int cantidadAnfibios() {
 	return listado.size();
 	}
 
-public static getListado() {
+public static ArrayList<Anfibio> getListado() {
 	return listado;
 }
 public static void setListado(ArrayList<Anfibio> listado) {

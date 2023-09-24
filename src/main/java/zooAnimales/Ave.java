@@ -15,12 +15,12 @@ public class Ave extends Animal {
 		this.colorPlumas=colorPlumas;
 		listado.add(this);
 	}
-	public  static crearHalcon(String nombre,int edad,String genero) {
+	public  static Ave crearHalcon(String nombre,int edad,String genero) {
 		Ave halcon=new Ave(nombre,edad,"montanas",genero,"cafe glorioso");
 		Ave.halcones++;
 		return halcon;
 	}
-	public static crearAguila(String nombre,int edad,String genero) {
+	public static Ave crearAguila(String nombre,int edad,String genero) {
 		Ave aguila=new Ave(nombre,edad,"montanas",genero,"blanco amarillo");
 		Ave.aguilas++;
 		return aguila;
@@ -28,18 +28,18 @@ public class Ave extends Animal {
 public static void setColorPlumas(String colorPlumas) {
 	this.colorPlumas=colorPlumas;
 }
-public static getColorPlumas() {
+public String getColorPlumas() {
 	return colorPlumas;
 }
-@override
+@Override
 public movimiento() {
 	return "volar";
 }
-public static cantidadAves() {
+public int cantidadAves() {
 	return listado.size();
 	}
 
-public static getListado() {
+public ArrayLis<Ave> getListado() {
 	return listado;
 }
 public static void setListado(ArrayList<Ave> listado) {

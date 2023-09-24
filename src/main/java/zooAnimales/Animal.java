@@ -19,13 +19,13 @@ public Animal(String nombre,int edad,String habitat,String genero,Zona zona){
 	this.zona=null;
 	totalAnimales+=1;
 }
-public static movimiento() {
+public static String movimiento() {
 	return "desplazarse";
 }
-public totalAnimales () {
+public int totalAnimales () {
 	return totalAnimales;
 }
-public static totalPorTipo() {
+public static String totalPorTipo() {
 	String resultado = String.format("Mamífero: %d%nAve: %d%nReptil: %d%nPez: %d%nAnfibio: %d%n", Mamifero.cantidadMamiferos(), Ave.cantidadAves(),Reptil.cantidadReptiles(),Pez.cantidadPeces(),Anfibio.cantidadAnfibios());
 return resultado;
 }

@@ -17,37 +17,37 @@ public class Reptil extends Animal {
 		this.largoCola=largoCola;
 		listado.add(this);
 	}
-	public  static crearIguana(String nombre,int edad,String genero) {
+	public  static Reptil crearIguana(String nombre,int edad,String genero) {
 		Reptil iguana=new Reptil(nombre,edad,"humedal",genero,"verde",3);
 		Reptil.iguanas++;
 		return iguana;
 	}
-	public static crearSerpiente(String nombre,int edad,String genero) {
+	public static Reptil crearSerpiente(String nombre,int edad,String genero) {
 		Reptil serpiente=new Reptil(nombre,edad,"jungla",genero,"blanco",1);
 		Reptil.serpientes++;
-		return aguila;
+		return serpiente;
 	}
-public static void setColorEscamas(String colorEscamas) {
+public void setColorEscamas(String colorEscamas) {
 	this.colorEscamas=colorEscamas;
 }
-public static getColorEscamas() {
+public static String getColorEscamas() {
 	return colorEscamas;
 }
-public static void setLargoCola(int largoCola) {
+public void setLargoCola(int largoCola) {
 	this.largoCola=largoCola;
 }
-public static getLargoCola() {
+public static int getLargoCola() {
 	return largoCola;
 }
-@override
+@Override
 public movimiento() {
 	return "reptar";
 }
-public static cantidadReptiles() {
+public static int cantidadReptiles() {
 	return listado.size();
 	}
 
-public static getListado() {
+public static ArrayList<Reptil> getListado() {
 	return listado;
 }
 public static void setListado(ArrayList<Reptil> listado) {
