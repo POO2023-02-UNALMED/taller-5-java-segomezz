@@ -47,7 +47,7 @@ public static int cantidadReptiles() {
 	return listado.size();
 	}
 
-public ArrayList<Reptil> getListado() {
+public static ArrayList<Reptil> getListado() {
 	return listado;
 }
 public void setListado(ArrayList<Reptil> listado) {
