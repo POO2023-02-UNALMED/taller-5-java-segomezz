@@ -1,5 +1,6 @@
-import java.util.ArrayList;
 package zooAnimales;
+import java.util.ArrayList;
+
 
 public class Mamifero extends Animal {
 	private ArrayList<Mamifero> listado=new ArrayList<Mamifero>();

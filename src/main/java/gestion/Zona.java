@@ -1,6 +1,6 @@
+package gestion;
 import java.util.ArrayList;
 import zooAnimales.Animal;
-package gestion;
 
 public class Zona {
 	private String nombre;
